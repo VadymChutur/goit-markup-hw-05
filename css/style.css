@@ -820,3 +820,7 @@ body {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
+
+.no-scroll {
+  overflow: hidden;
+}
