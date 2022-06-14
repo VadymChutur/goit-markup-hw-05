@@ -569,8 +569,9 @@ body {
   margin-top: 9px;
 }
 
-.footer-list {
-}
+/* .footer-list {
+} */
+
 .footer-address-link {
   font-size: 14px;
   line-height: 1.71;
@@ -700,8 +701,10 @@ body {
   margin-top: var(--second-margin);
 }
 
-.portfolio-item-preview:hover .portfolio-img-text,
-.portfolio-item-preview:focus .portfolio-img-text {
+/* .portfolio-item-preview:hover .portfolio-img-text,
+.portfolio-item-preview:focus .portfolio-img-text, */
+.portfolio-link:focus .portfolio-img-text,
+.portfolio-link:hover .portfolio-img-text {
   transform: translateY(0);
 }
 
@@ -712,7 +715,7 @@ body {
 
 .portfolio-img-text {
   position: absolute;
-  transform: translateY(100%);
+  transform: translateY(120%);
   top: 0;
   left: 0;
   width: 100%;
