@@ -16,6 +16,7 @@
   --seven-backgound: rgba(47, 48, 58, 0.8);
   --eight-background: rgba(33, 150, 243, 0.9);
   --modal-background: rgba(0, 0, 0, 0.2);
+  --border-color: rgba(33, 33, 33, 0.2);
   --first-margin: 50px;
   --second-margin: 30px;
   --third-margin: 10px;
@@ -822,6 +823,59 @@ body {
 .modal-btn-close:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.modal-container-form {
+  padding: 40px;
+}
+
+.modal-title {
+  margin-bottom: 30px;
+
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+
+.modal-input {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.modal-input-field {
+  flex-grow: 1;
+  min-height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.modal-text-area {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.modal-text-area-field {
+  flex-grow: 1;
+  min-height: 120px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  resize: none;
+}
+
+.modal-privacy {
+  margin-bottom: 30px;
+}
+
+.modal-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 50px;
 }
 
 .no-scroll {
